@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <ImageView
+        android:id="@+id/profileimg"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="@dimen/margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/salama_jatau" />
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/margin"
+        android:fontFamily="monospace"
+        android:text="@string/fullname"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileimg" />
+
+    <View
+        android:id="@+id/hrdiv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@color/hrdivcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nametv" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hrdiv"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/tracktv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:fontFamily="monospace"
+            android:text="@string/track"
+            android:textSize="@dimen/profiletextsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/countrytv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:fontFamily="monospace"
+            android:text="@string/country"
+            android:textSize="@dimen/profiletextsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:fontFamily="monospace"
+            android:text="@string/email"
+            android:textSize="@dimen/profiletextsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phonetv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:fontFamily="monospace"
+            android:text="@string/phone"
+            android:textSize="@dimen/profiletextsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/slacktv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="monospace"
+            android:text="@string/slack"
+            android:textSize="@dimen/profiletextsize"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

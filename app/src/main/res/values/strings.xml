@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="welcometext">Welcome to ALC 4.0</string>
+    <string name="aboutbtn">ABOUT ALC</string>
+    <string name="profilebtn">MY PROFILE</string>
+    <string name="title_activity_about_alc">About ALC</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="fullname">Salama Jatau</string>
+    <string name="track">Track:   Android</string>
+    <string name="country">Country:   Nigeria</string>
+    <string name="email">Email:   salamajatau@gmail.com</string>
+    <string name="phone">Phone Number:   2348032434434</string>
+    <string name="slack">Slack Username:   @Salama Jatau</string>
+</resources>
